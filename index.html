@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Saveurs & Cuisine — Recettes simples, gourmandes et cours de cuisine."
+  >
+
+  <title>Saveurs & Cuisine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+<header class="header">
+
+  <div class="container nav">
+
+    <a class="logo" href="#accueil">
+      Saveurs<span>&</span>Cuisine
+    </a>
+
+
+    <button
+      class="menu-btn"
+      aria-label="Ouvrir le menu"
+      type="button"
+    >
+      ☰
+    </button>
+
+
+    <nav class="menu">
+
+      <a href="#accueil">
+        Accueil
+      </a>
+
+      <a href="#recettes">
+        Recettes
+      </a>
+
+      <a href="#cours">
+        Cours
+      </a>
+
+      <a href="#apropos">
+        À propos
+      </a>
+
+      <a
+        href="#contact"
+        class="nav-cta"
+      >
+        Contact
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section
+  id="accueil"
+  class="hero"
+>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">
+      BIENVENUE DANS NOTRE CUISINE
+    </p>
+    <h1>
+      Des recettes simples,<br>
+      <em>des moments savoureux.</em>
+    </h1>
+    <p class="hero-text">
+      Découvrez des recettes gourmandes et apprenez
+      les techniques qui font toute la différence.
+    </p>
+
+
+    <div class="hero-actions">
+      <a
+        href="#recettes"
+        class="btn btn-primary"
+      >
+        Découvrir les recettes
+      </a>
+      <a
+        href="#cours"
+        class="btn btn-light"
+      >
+        Voir les cours
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="intro section">
+  <div class="container intro-grid">
+    <div>
+      <p class="eyebrow dark">
+        NOTRE PASSION
+      </p>
+      <h2>
+        Cuisiner avec plaisir,<br>
+        partager avec passion.
+      </h2>
+    </div>
+    <div>
+      <p>
+        Que vous soyez débutant ou passionné,
+        notre cuisine vous accompagne avec des
+        recettes accessibles, des astuces pratiques
+        et des cours pensés pour progresser à votre rythme.
+      </p>
+      <a
+        class="text-link"
+        href="#apropos"
+      >
+        En savoir plus →
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section
+  id="recettes"
+  class="section recipes"
+>
+  <div class="container">
+
+
+    <div class="section-head">
+
+      <div>
+        <p class="eyebrow dark">
+          NOS RECETTES
+        </p>
+
+        <h2>
+          À table !
+        </h2>
+      </div>
+      <p>
+        Des idées fraîches pour tous les jours.
+      </p>
+
+    </div>
+
+    <div class="cards">
+
+      <article class="card">
+
+        <img
+          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=85"
+          alt="Salade méditerranéenne"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Frais & léger
+          </span>
+
+          <h3>
+            Salade méditerranéenne
+          </h3>
+          <p>
+            Un mélange coloré, croquant et plein de fraîcheur.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="salade"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=85"
+          alt="Pâtes crémeuses"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Déjeuner
+          </span>
+          <h3>
+            Pâtes crémeuses
+          </h3>
+          <p>
+            Une recette généreuse, rapide et réconfortante.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="pates"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85"
+          alt="Dessert maison"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Gourmand
+          </span>
+          <h3>
+            Dessert maison
+          </h3>
+          <p>
+            Une douceur simple à préparer et à partager.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="dessert"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85"
+          alt="Bowl de légumes"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Sain
+          </span>
+          <h3>
+            Bowl de légumes
+          </h3>
+          <p>
+            Un plat équilibré, coloré et facile à préparer.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="bowl"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+
+        <img
+          src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+          alt="Pizza maison"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Familial
+          </span>
+          <h3>
+            Pizza maison
+          </h3>
+          <p>
+            Une pizza savoureuse à préparer facilement à la maison.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="pizza"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+          alt="Plat de légumes"
+          loading="lazy"
+        >
+        <div class="card-body">
+
+          <span>
+            Simple & rapide
+          </span>
+          <h3>
+            Plat de légumes
+          </h3>
+          <p>
+            Une recette simple, savoureuse et pleine de couleurs.
+          </p>
+          <button
+            class="details"
+            type="button"
+            data-recipe="legumes"
+          >
+            Voir la recette →
+          </button>
+        </div>
+      </article>
+    </div>
+
+    <div
+      id="recipeContent"
+      class="recipe-content"
+      aria-live="polite"
+    >
+
+      <div class="recipe-placeholder">
+
+        <p>
+          Sélectionnez une recette pour découvrir
+          les ingrédients et la préparation.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= COURS ================= -->
+<section
+  id="cours"
+  class="courses section"
+>
+  <div class="container course-grid">
+
+    <divclass="course-image">
+      <img
+        src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1100&q=85"
+        alt="Cours de cuisine"
+        loading="lazy"
+      >
+    </div>
+    <div class="course-content">
+      <p class="eyebrow">
+        APPRENEZ À CUISINER
+      </p>
+      <h2>
+        Des cours pour révéler votre talent.
+      </h2>
+      <p>
+        Techniques, recettes et conseils :
+        apprenez à préparer de bons plats
+        dans une ambiance conviviale.
+      </p>
+      <ul>
+        <li>
+          ✓ Techniques de base
+        </li>
+        <li>
+          ✓ Recettes du quotidien
+        </li>
+        <li>
+          ✓ Astuces de chef
+        </li>
+        <li>
+          ✓ Ateliers en petit groupe
+        </li>
+      </ul>
+      <a
+        href="#contact"
+        class="btn btn-primary"
+      >
+        Réserver un cours
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<section
+  id="apropos"
+  class="about section"
+>
+  <div class="container about-inner">
+    <p class="eyebrow dark">
+      QUI SOMMES-NOUS ?
+    </p>
+    <h2>
+      Une cuisine généreuse,<br>
+      faite pour être partagée.
+    </h2>
+    <p>
+      Nous créons cet espace pour transmettre
+      le plaisir de cuisiner. Chaque recette est
+      pensée pour être claire, belle et réalisable
+      à la maison.
+    </p>
+    <div class="stats">
+      <div>
+        <strong>
+          120+
+        </strong>
+        <span>
+          Recettes
+        </span>
+      </div>
+      <div>
+        <strong>
+          25
+        </strong>
+        <span>
+          Cours
+        </span>
+      </div>
+      <div>
+
+        <strong>
+          8 ans
+        </strong>
+        <span>
+          D'expérience
+        </span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section
+  id="contact"
+  class="contact section"
+>
+  <div class="container contact-grid">
+    <div>
+      <p class="eyebrow dark">
+        CONTACT
+      </p>
+      <h2>
+        Une question ?<br>
+        Écrivez-nous.
+      </h2>
+      <p>
+        Envoyez-nous un message pour une réservation,
+        une question ou une suggestion.
+      </p>
+    </div>
+    <form
+      class="form"
+      id="contactForm"
+      action="https://formspree.io/f/mzezgnvr"
+      method="POST"
+    >
+      <input
+        type="text"
+        name="name"
+        placeholder="Votre nom"
+        required
+      >
+      <input
+        type="email"
+        name="email"
+        placeholder="Votre adresse e-mail"
+        required
+      >
+      <textarea
+        name="message"
+        rows="5"
+        placeholder="Votre message"
+        required
+      ></textarea>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        Envoyer le message
+      </button>
+      <p
+        id="formMessage"
+        class="form-message"
+      ></p>
+    </form>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div class="container footer-inner">
+    <a
+      class="logo"
+      href="#accueil"
+    >
+      Saveurs<span>&</span>Cuisine
+    </a>
+    <p>
+      © 2026 Saveurs & Cuisine — Tous droits réservés.
+    </p>
+  </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
